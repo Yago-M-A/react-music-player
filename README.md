@@ -1,9 +1,9 @@
 ## React Music Player
 Projeto desenvolvido com Typescript e ReactJS, com a proposta de ser um music player e também com a finalidade de aprimorar meus conhecimentos.
 
-- [Live Preview](https://react-firebase-todolist.netlify.app/)
+- [Live Preview](https://app.netlify.com/sites/playerreact/deploys)
 
-<img src='https://github.com/Yago-M-A/react-firebase-todolist/blob/master/public/readme/Screenshot_802.png' width='100%'>
+<img src='https://github.com/Yago-M-A/react-music-player/blob/master/public/readme/Screenshot_810.png' width='100%'>
 
 ## Libraries
 
