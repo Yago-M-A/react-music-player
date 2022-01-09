@@ -65,13 +65,25 @@ export const ProgressBar = styled.div<ProgressBarProps>`
         z-index: 2;
       }
 
+      &::-moz-range-track {
+        width: 100%;
+        height: 4px;
+        cursor: pointer;
+        background: #d3dedc left top no-repeat;
+      }
+
+      &::-moz-range-progress {
+        background-color: #f231a5;
+        height: 4px;
+      }
+
       &::-moz-range-thumb {
         width: 1.5rem;
         height: 1.5rem;
         z-index: 3;
         border-radius: 50%;
         appearance: none;
-        background-color: yellow;
+        background-color: #f231a5;
         position: relative;
         top: 0;
         transform: scale(1.2, 1.1);
@@ -98,6 +110,7 @@ export const Buttons = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem 0;
 
   button {
     display: flex;
@@ -142,7 +155,7 @@ export const Volume = styled.div<VolumeProps>`
     justify-content: center;
 
     input[type='range'] {
-      appearance: none;
+      -webkit-appearance: none;
       border-radius: 1rem;
       background: #d3dedc;
       height: 4px;
@@ -165,13 +178,25 @@ export const Volume = styled.div<VolumeProps>`
         z-index: 2;
       }
 
+      &::-moz-range-track {
+        width: 100%;
+        height: 4px;
+        cursor: pointer;
+        background: #d3dedc left top no-repeat;
+      }
+
+      &::-moz-range-progress {
+        background-color: #f231a5;
+        height: 4px;
+      }
+
       &::-moz-range-thumb {
         width: 1.5rem;
         height: 1.5rem;
         z-index: 3;
         border-radius: 50%;
         appearance: none;
-        background-color: yellow;
+        background-color: #f231a5;
         position: relative;
         top: 0;
         transform: scale(1.2, 1.1);
